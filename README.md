@@ -27,7 +27,7 @@ commander-client node /YOUR_WORKING_FOLDER/index.js
 
 Change "node" command for whatever command available in your container.
 
-Can set an alias, example in linux:
+Can set an alias:
 
 ```
 alias node="commander-client node"
