@@ -2,4 +2,4 @@
 
 command=$@
 
-docker exec -u $UID -w $PWD -it commander $command
+docker exec -u $UID -w $PWD --env-file <(env) -it commander $command
